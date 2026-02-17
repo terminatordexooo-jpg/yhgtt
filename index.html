@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Арбитраж Трафика — Научись зарабатывать</title>
+    <meta name="description"
+        content="Бесплатное обучение арбитражу трафика. Оставь свой Telegram и получи доступ к закрытому сообществу.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Animated Background Particles -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Animated Wave Background (Hero) -->
+    <div class="wave-bg wave-bg-hero">
+        <svg class="wave wave-1" viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="rgba(0,240,255,0.03)"
+                d="M0,160L48,170.7C96,181,192,203,288,186.7C384,171,480,117,576,112C672,107,768,149,864,165.3C960,181,1056,171,1152,149.3C1248,128,1344,96,1392,80L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+        <svg class="wave wave-2" viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="rgba(123,97,255,0.025)"
+                d="M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,218.7C672,235,768,245,864,224C960,203,1056,149,1152,138.7C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+        <svg class="wave wave-3" viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path fill="rgba(255,77,166,0.015)"
+                d="M0,288L48,272C96,256,192,224,288,213.3C384,203,480,213,576,229.3C672,245,768,267,864,261.3C960,256,1056,224,1152,208C1248,192,1344,192,1392,192L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">TRAFFIC<span class="accent">PRO</span></span>
+            </a>
+            <a href="#lead-form" class="nav-cta">Начать обучение</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge animate-on-scroll">
+                <span class="badge-dot"></span>
+                Набор открыт — Февраль 2026
+            </div>
+            <h1 class="hero-title animate-on-scroll">
+                Научись <span class="gradient-text">Арбитражу</span><br>
+                <span class="gradient-text-2">Трафика</span> с нуля
+            </h1>
+            <p class="hero-subtitle animate-on-scroll">
+                Пошаговое обучение от практиков. Узнай, как превращать трафик в деньги —
+                даже если ты полный новичок. Бесплатный доступ к закрытому сообществу.
+            </p>
+            <div class="hero-stats animate-on-scroll">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="500">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Учеников</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="92">0</span><span class="stat-suffix">%</span>
+                    <span class="stat-label">Довольных</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="30">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Уроков</span>
+                </div>
+            </div>
+            <a href="#lead-form" class="hero-cta animate-on-scroll">
+                <span>Оставить Telegram</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+            </a>
+        </div>
+        <div class="hero-glow"></div>
+    </section>
+
+    <!-- Wave Divider: Hero → Features -->
+    <div class="wave-divider">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path fill="rgba(0,240,255,0.04)"
+                d="M0,40L60,50C120,60,240,80,360,85C480,90,600,80,720,65C840,50,960,30,1080,25C1200,20,1320,30,1380,35L1440,40L1440,120L0,120Z" />
+            <path fill="rgba(123,97,255,0.03)"
+                d="M0,60L60,65C120,70,240,80,360,80C480,80,600,70,720,60C840,50,960,40,1080,45C1200,50,1320,60,1380,65L1440,70L1440,120L0,120Z" />
+        </svg>
+    </div>
+
+    <!-- What You'll Learn Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">Программа</span>
+                <h2 class="section-title">Что ты <span class="gradient-text">узнаешь</span></h2>
+                <p class="section-desc">Полная программа обучения — от основ до продвинутых стратегий</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card animate-on-scroll" data-delay="0">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                        </svg>
+                    </div>
+                    <h3>Основы арбитража</h3>
+                    <p>Что такое CPA-сети, офферы, лендинги. Как устроена экосистема и где тут деньги.</p>
+                </div>
+                <div class="feature-card animate-on-scroll" data-delay="100">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 6v6l4 2" />
+                        </svg>
+                    </div>
+                    <h3>Источники трафика</h3>
+                    <p>Facebook, Google, TikTok, Push-уведомления. Разберём каждый источник детально.</p>
+                </div>
+                <div class="feature-card animate-on-scroll" data-delay="200">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path
+                                d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 002 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0022 16z" />
+                        </svg>
+                    </div>
+                    <h3>Связки и кейсы</h3>
+                    <p>Рабочие связки, которые приносят от $100/день. Реальные кейсы с цифрами.</p>
+                </div>
+                <div class="feature-card animate-on-scroll" data-delay="300">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M12 20V10M18 20V4M6 20v-4" />
+                        </svg>
+                    </div>
+                    <h3>Аналитика и оптимизация</h3>
+                    <p>Трекеры, A/B тесты, масштабирование. Как выжимать максимум из каждой кампании.</p>
+                </div>
+                <div class="feature-card animate-on-scroll" data-delay="400">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
+                        </svg>
+                    </div>
+                    <h3>Закрытое сообщество</h3>
+                    <p>Доступ в приватный Telegram-чат с менторами и другими учениками. Поддержка 24/7.</p>
+                </div>
+                <div class="feature-card animate-on-scroll" data-delay="500">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6" />
+                        </svg>
+                    </div>
+                    <h3>Первый заработок</h3>
+                    <p>Пошаговый план запуска первой кампании и получения первого профита за 7 дней.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave Divider: Features → Steps -->
+    <div class="wave-divider wave-divider-flip">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+            <path fill="rgba(0,240,255,0.03)"
+                d="M0,80L80,70C160,60,320,40,480,35C640,30,800,40,960,50C1120,60,1280,70,1360,75L1440,80L1440,100L0,100Z" />
+            <path fill="rgba(123,97,255,0.02)"
+                d="M0,90L80,85C160,80,320,70,480,65C640,60,800,65,960,70C1120,75,1280,80,1360,82.5L1440,85L1440,100L0,100Z" />
+        </svg>
+    </div>
+
+    <!-- How It Works Section -->
+    <section class="steps" id="steps">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">Путь</span>
+                <h2 class="section-title">Как это <span class="gradient-text-2">работает</span></h2>
+            </div>
+            <div class="steps-timeline">
+                <div class="step-item animate-on-scroll" data-delay="0">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Оставляешь свой Telegram</h3>
+                        <p>Заполни форму ниже — это займёт 5 секунд. Мы свяжемся с тобой в Telegram.</p>
+                    </div>
+                </div>
+                <div class="step-item animate-on-scroll" data-delay="150">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Получаешь доступ</h3>
+                        <p>Мы добавим тебя в закрытый канал с уроками, кейсами и поддержкой менторов.</p>
+                    </div>
+                </div>
+                <div class="step-item animate-on-scroll" data-delay="300">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Начинаешь зарабатывать</h3>
+                        <p>Следуешь пошаговым урокам, запускаешь первую кампанию и получаешь профит.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave Divider: Steps → Lead Form -->
+    <div class="wave-divider">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path fill="rgba(0,240,255,0.035)"
+                d="M0,60L48,55C96,50,192,40,288,45C384,50,480,70,576,80C672,90,768,90,864,80C960,70,1056,50,1152,45C1248,40,1344,50,1392,55L1440,60L1440,120L0,120Z" />
+            <path fill="rgba(123,97,255,0.025)"
+                d="M0,80L48,78C96,76,192,72,288,74C384,76,480,84,576,88C672,92,768,92,864,88C960,84,1056,76,1152,72C1248,68,1344,68,1392,68L1440,68L1440,120L0,120Z" />
+            <path fill="rgba(255,77,166,0.015)"
+                d="M0,96L48,94C96,92,192,88,288,88C384,88,480,92,576,96C672,100,768,104,864,100C960,96,1056,84,1152,80C1248,76,1344,80,1392,82L1440,84L1440,120L0,120Z" />
+        </svg>
+    </div>
+
+    <!-- Lead Form Section -->
+    <section class="lead-section" id="lead-form">
+        <div class="container">
+            <div class="lead-card animate-on-scroll">
+                <div class="lead-card-glow"></div>
+                <div class="lead-card-content">
+                    <div class="lead-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                            <path d="M22 2L11 13" stroke="url(#tg-grad)" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="url(#tg-grad)" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <defs>
+                                <linearGradient id="tg-grad" x1="2" y1="2" x2="22" y2="22">
+                                    <stop stop-color="#00F0FF" />
+                                    <stop offset="1" stop-color="#7B61FF" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h2 class="lead-title">Готов начать?</h2>
+                    <p class="lead-desc">Оставь свой Telegram — мы свяжемся с тобой и дадим доступ к обучению. Это
+                        бесплатно.</p>
+
+                    <form id="telegram-form" class="lead-form" autocomplete="off">
+                        <div class="input-wrapper" id="input-wrapper">
+                            <span class="input-prefix">@</span>
+                            <input type="text" id="telegram-input" name="telegram" placeholder="твой_username" required
+                                minlength="3" maxlength="32" pattern="[a-zA-Z0-9_]+">
+                            <div class="input-glow"></div>
+                        </div>
+                        <button type="submit" class="submit-btn" id="submit-btn">
+                            <span class="btn-text">Отправить</span>
+                            <span class="btn-loader" id="btn-loader"></span>
+                            <span class="btn-success" id="btn-success">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="3">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                            </span>
+                        </button>
+                        <p class="form-hint">Только username, без ссылки</p>
+                        <p class="form-error" id="form-error"></p>
+                    </form>
+
+                    <div class="lead-success" id="lead-success">
+                        <div class="success-icon">✓</div>
+                        <h3>Отлично! 🎉</h3>
+                        <p>Мы получили твой Telegram. Скоро напишем тебе — жди сообщение!</p>
+                    </div>
+
+                    <div class="trust-badges">
+                        <div class="trust-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            </svg>
+                            <span>Данные защищены</span>
+                        </div>
+                        <div class="trust-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                                <polyline points="22 4 12 14.01 9 11.01" />
+                            </svg>
+                            <span>Без спама</span>
+                        </div>
+                        <div class="trust-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 6v6l4 2" />
+                            </svg>
+                            <span>Ответ за 24ч</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <span class="footer-logo">⚡ TRAFFIC<span class="accent">PRO</span></span>
+                <p class="footer-copy">© 2026 TrafficPro. Все права защищены.</p>
+                <a href="https://t.me/ttrs_manager" target="_blank" class="footer-tg">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
+                    </svg>
+                    @ttrs_manager
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
